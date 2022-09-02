@@ -47,7 +47,7 @@ struct ContentView: View {
             
                 .fill(
                     
-                    AngularGradient(gradient: Gradient(colors: [Color.green, Color.black]),
+                    AngularGradient(gradient: Gradient(colors: [Color.purple, Color.yellow]),
                                     
                                     center: .topLeading,
                                     
