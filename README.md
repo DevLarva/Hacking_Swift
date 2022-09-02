@@ -10,7 +10,7 @@
 https://www.hackingwithswift.com/
 
 
-<img src="https://user-images.githubusercontent.com/75058050/188086291-6d6f0c6e-78b9-4143-82b3-a2063ff36306.png" width="400" height="300"/>
+<img src="https://user-images.githubusercontent.com/75058050/188086291-6d6f0c6e-78b9-4143-82b3-a2063ff36306.png" width="500" height="500"/>
 
 
 
