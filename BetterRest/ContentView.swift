@@ -50,7 +50,7 @@ struct ContentView: View {
                         Text("하루 동안 몇잔의 커피를 드시나요?")
                             .font(.headline)
                         
-                        Stepper(coffeeAmount == 1 ? "1 컵" : "\(coffeeAmount) cups", value: $coffeeAmount, in: 1...20)
+                        Stepper(coffeeAmount == 1 ? "1 cups" : "\(coffeeAmount) cups", value: $coffeeAmount, in: 0...20)
                     }
                 }
                 .navigationTitle("BetterRest")
