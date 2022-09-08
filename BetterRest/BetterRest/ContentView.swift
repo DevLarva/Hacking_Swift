@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     @State private var wakeUp = defaultWakeTime
     @State private var sleepAmount = 8.0
-    @State private var coffeeAmount = 1
+    @State private var coffeeAmount = 0
     
     @State private var aleatTitle = ""
     @State private var aleatMessage = ""
@@ -45,7 +45,7 @@ struct ContentView: View {
                     Text("카페인 섭취량")
                         .font(.headline)
                     
-                    Stepper(coffeeAmount == 1 ? "1 컵" : "\(coffeeAmount) cups", value: $coffeeAmount, in: 1...20)
+                    Stepper(coffeeAmount == 1 ? "0 컵" : "\(coffeeAmount) cups", value: $coffeeAmount, in: ...20)
                 }
             }
             .navigationTitle("BetterRest")
