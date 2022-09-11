@@ -45,12 +45,12 @@ struct ContentView: View {
                     Text("카페인 섭취량")
                         .font(.headline)
                     
-                    Stepper(coffeeAmount == 1 ? "0 컵" : "\(coffeeAmount) cups", value: $coffeeAmount, in: ...20)
+                    Stepper(coffeeAmount == 0 ? "0 컵" : "\(coffeeAmount) cups", value: $coffeeAmount, in: ...20)
                 }
             }
             .navigationTitle("BetterRest")
             .toolbar {
-                Button("Caculate",action: caculateBedtime)
+                Button("계산하기",action: caculateBedtime)
             }
             .alert(aleatTitle,isPresented: $showingAlert) {
                 Button("확인") { }
